@@ -1,0 +1,13 @@
+id,name,supplier
+base.partner_root,Ingenieria ADHOC,True
+inf_partner_server4,Server4You,True
+inf_partner_nx,Nx Hosting,True
+inf_partner_nubenet,Nubenet,True
+inf_partner_estudios_integrales,Estudios Integrales,False
+inf_partner_cedent,Cedent,False
+inf_partner_logos,Logos,False
+inf_partner_expresso,Expresso,False
+inf_partner_apdes,Apdes,False
+inf_partner_neomix,Neomix,False
+inf_partner_grupodps,GrupoDPS,False
+inf_partner_transmeco,Transmeco,False

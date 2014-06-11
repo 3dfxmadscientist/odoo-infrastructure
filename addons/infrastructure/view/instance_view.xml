@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+##############################################################################
+#
+#    Infrastructure
+#    Copyright (C) 2014 Ingenieria ADHOC
+#    No email
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
+-->
+<!-- infrastructure.instance -->
+<!-- infrastructure.instance -->
+<!-- infrastructure.instance -->
+<openerp>
+    <data>
+
+        <!-- SEARCH VIEW -->
+        <record id="view_infrastructure_instance_filter" model="ir.ui.view">
+            <field name="name">infrastructure.instance.select</field>
+            <field name="model">infrastructure.instance</field>
+            <field name="arch" type="xml">
+                <search string="instance" version="7.0">
+                    <group string="By Attribute">
+                    <field name="name" string="Name"
+                            />
+                    <field name="instance_type" string="Instance Type"
+                            />
+                    <field name="xml_rpc_port" string="xml rpc Port"
+                            />
+                    <field name="db_filter" string="Db filter"
+                            />
+                    <field name="user" string="User"
+                            />
+                    </group>
+                    <group string="By object">
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <!-- FORMVIEW -->
+        <record id="view_infrastructure_instance_form" model="ir.ui.view">
+            <field name="name">infrastructure.instance.form</field>
+            <field name="model">infrastructure.instance</field>
+            <field name="arch" type="xml">
+                <form string="instance" version="7.0">
+                    <header>
+                    </header>
+                    <sheet string="instance">
+                     <group>
+                        <field name="name"
+                            />
+                        <field name="instance_type"
+                            />
+                        <field name="xml_rpc_port"
+                            />
+                        <field name="xml_rpcs_port"
+                            />
+                        <field name="longpolling_port"
+                            />
+                        <field name="db_filter"
+                            />
+                        <field name="user"
+                            />
+                     </group>
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- TREEVIEW -->
+
+        <record id="view_infrastructure_instance_tree" model="ir.ui.view">
+            <field name="name">infrastructure.instance.tree</field>
+            <field name="model">infrastructure.instance</field>
+            <field name="arch" type="xml">
+                <tree string="instance"
+                    >
+                    <field name="name"
+                        />
+                    <field name="instance_type"
+                        />
+                    <field name="xml_rpc_port"
+                        />
+                    <field name="db_filter"
+                        />
+                    <field name="user"
+                        />
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</openerp>
+<!-- vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4
+     -->

@@ -1,0 +1,13 @@
+id,environment_id/id,name,instance_type,xml_rpc_port,xml_rpcs_port,longpolling_port,db_filter/id
+inf_inst_logos-61,inv_env_logos-61,logos-61,none_secure,8069,,,inf_db_filter_exact
+inf_inst_cedent-61,inv_env_cedent-61,cedent-61,none_secure,8069,,,inf_db_filter_sub
+inf_inst_expresso-61,inv_env_expresso-61,expresso-61,none_secure,8069,,,inf_db_filter_no_filter
+inf_inst_ing-adhoc-70,inv_env_ing-adhoc-70,ing-adhoc-70,secure,8069,,,inf_db_filter_exact
+inf_inst_saasadhoc-trunk,inv_env_saasadhoc-trunk,saasadhoc-trunk,none_secure,8069,,,inf_db_filter_sub
+inf_inst_saasadhoc-saas-3,inv_env_saasadhoc-saas-3,saasadhoc-saas-3,none_secure,8069,,,inf_db_filter_no_filter
+inf_inst_neomix-70,inv_env_neomix-70,neomix-70,none_secure,8069,,,inf_db_filter_exact
+inf_inst_grupodps-70,inv_env_grupodps-70,grupodps-70,none_secure,8069,,,inf_db_filter_sub
+inf_inst_transmeco-70,inv_env_transmeco-70,transmeco-70,none_secure,8069,,,inf_db_filter_no_filter
+inf_inst_coloccini-70,inv_env_coloccini-70,coloccini-70,none_secure,8069,,,inf_db_filter_exact
+inf_inst_clinic-saas-3,inv_env_clinic-saas-3,clinic-saas-3,none_secure,8069,,,inf_db_filter_sub
+inf_inst_apdes-saas-3,inv_env_apdes-saas-3,apdes-saas-3,none_secure,8069,,,inf_db_filter_no_filter

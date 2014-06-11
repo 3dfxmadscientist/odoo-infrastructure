@@ -1,0 +1,8 @@
+id,name
+inf_env_version_1,OpenERP 6.1
+inf_env_version_2,OpenERP 7.0
+inf_env_version_3,OpenERP saas-3
+inf_env_version_4,OpenERP saas-4
+inf_env_version_5,OpenERP saas-5
+inf_env_version_6,Odoo Trunk
+inf_env_version_7,Odoo 8.0

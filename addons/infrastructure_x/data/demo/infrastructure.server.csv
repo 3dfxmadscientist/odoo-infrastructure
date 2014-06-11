@@ -1,0 +1,5 @@
+id,name,ip_address,ssh_port,main_hostname,user_name,password,holder_id/id,owner_id/id,user_id/id,software_data,hardware_data,contract_data,note
+inf_server_pegaso,Pegaso,179.60.235.250,50022,pegaso.grupoadhoc.com.ar,adhoc,adhoc,inf_partner_nubenet,base.partner_root,base.partner_root,,,,
+inf_server_minotauro,Minotauro,179.60.235.250,50022,minotauro.grupoadhoc.com.ar,adhoc,adhoc,inf_partner_nx,inf_partner_nx,base.partner_root,,,,
+inf_server_est_integrales,Estudios Integrales,190.18.89.169,2021,erp.ei-lan.com.ar,adhoc,adhoc,inf_partner_estudios_integrales,inf_partner_estudios_integrales,inf_partner_estudios_integrales,,,,
+inf_server_runbot,Runbot,asdas,50022,runbot.ingadhoc.com,adhoc,adhoc,inf_partner_server4,inf_partner_server4,base.partner_root,,,,
